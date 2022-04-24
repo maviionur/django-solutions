@@ -4,5 +4,5 @@ from method2.serializers import BinOperationSerializer
 
 # Create your views here.
 class BinOperationList(generics.ListAPIView):
-    queryset = BinOperation.objects.all()
+    queryset = BinOperation.objects.select_related().all()
     serializer_class = BinOperationSerializer
