@@ -60,7 +60,7 @@ I thought of different solution methods for this case. I added two of them to th
 In the first method, the models are defined as follows.
 
 
-![method1_erd.png](../_resources/method1_erd.png)
+![method1_erd.png](https://github.com/maviionur/django-solutions/blob/main/Q2/images/method1_erd.png)
 
 
 
@@ -69,6 +69,6 @@ In the first method, the models are defined as follows.
 I added this solution to the project as I thought it was a more extensible method. In the future, different attributes may be required for different operations. For this reason, I thought it would make more sense to keep the attributes in a jsonfield. Thus, when new attributes are required, the project can continue to work without making any changes to the model. And we can store values ​​like last_collection and collection_frequency under attributes.
 
 
-![method2_erd.png](../_resources/method2_erd.png)
+![method2_erd.png](https://github.com/maviionur/django-solutions/blob/main/Q2/images/method2_erd.png)
 
 
